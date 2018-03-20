@@ -1,0 +1,190 @@
+
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+@font-face {  
+  font-family: "Athelas-Regular";  
+  src: url(Athelas.ttc)/*tpa=http://www.ireasy.com/view/template/css/font/Athelas.ttc*/ format("truetype");  
+}
+table{
+	overflow-x:auto;
+	display: block !important;
+	font-size: 18px;
+}
+.tableWrap{
+	overflow:auto;
+}
+td{
+	border: 0px solid;
+	text-align: center;
+	word-break: break-all;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+td, th{
+	padding: 6px 20px;
+}
+table tbody {
+    display:block;
+    overflow-x:scroll;
+}
+
+table thead, tbody tr {
+    width:100%;
+    table-layout:fixed;
+}
+table>tbody>tr:first-child{
+	background: #98A0AC;
+    color: #fff;
+	font-size: 22px;
+}
+tr:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+.tab_column .bigTitle{
+	font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+	margin: 0 45px;
+}
+.tab_column .abstractContent{
+    margin: 30px 45px 20px 45px;
+    font-size: 22px;
+    line-height: 40px;
+    overflow: hidden;
+	padding-bottom: 50px;
+}
+.tab_column .abstractContent p{
+	margin: 0px;
+	padding: 0px;
+}
+.tab_column .abstractContent p img{
+	width: 100%!important;	
+}
+.tab_common .container{
+	padding: 0;	
+}
+.tab_common .container .title{
+	width: 100%;
+    height: 205px;
+    padding: 0px 35px;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+	-webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+	line-height: 45px;
+}
+.tab_common .container .title p{
+	position:relative;
+	top:50%;
+	-webkit-transform:translate(0,-50%);
+	margin: 0;
+	line-height: 60px;
+}
+.tab_common .container .abstract{
+	color: #4A4A4A;
+    font-size: 22px;
+    padding-top: 33px;
+    line-height: 37.5px;
+    min-height: 286px;
+	overflow-x: hidden;	
+}
+.tab_common .container .abstract p{
+	padding: 0 30px;
+    margin: 0;
+    margin-bottom: 20px;	
+}
+.tab_common .container .abstract p img{
+	width: 100%!important;
+}
+
+#footer_confrim{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  z-index: 9999999;
+  display:none;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+#footer_confrim>.content{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width:100%;
+  height: 570px;
+  top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#footer_confrim>.content>.footer_confrim{
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  height: 570px;
+  background-color: #fff;
+  border:1px solid #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding-top: 36px;
+  padding-bottom: 30px;
+}
+#footer_confrim>.content>.footer_confrim>.confrim_close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-image: url(icon-close@2x.png)/*tpa=http://www.ireasy.com/view/half_year_template/images/icon-close@2x.png*/
+}
+#footer_confrim>.content>.footer_confrim>.title1{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 26px;
+  line-height: 16px;
+  color: #1F1F1F;
+  font-weight: bold;
+}
+#footer_confrim>.content>.footer_confrim>.title2{
+  width: 100%;
+  display: inline-block;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 16px;
+  color: #1F1F1F;
+}
+#footer_confrim>.content>.footer_confrim>.qrcode{
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+}
+#footer_confrim>.content>.footer_confrim>.qrcode img{
+  width: 400px;
+  height: 400px;
+}
+#footer_confrim>.content>.footer_confrim>.title3{
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 14px;
+  color: #999999;
+}
+#index{
+	display:block;
+}
